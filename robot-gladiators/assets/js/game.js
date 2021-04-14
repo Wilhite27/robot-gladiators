@@ -36,7 +36,7 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
     playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
   );
 
-  // check enemy's health
+  // displey enemy's health
   if (enemyHealth <= 0) {
     window.alert(enemyName + " has died!");
   } else {
